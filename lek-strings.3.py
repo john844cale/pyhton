@@ -1,5 +1,37 @@
 print("Välkommen till mitt program där du kan addera")
-tal1 = input("Skriva in ett heltal: ")
-tal2 = input("Skriva in ett annorlunda heltal: ")
-summa = int(tal1) + int(tal2)
-print("Summan är:" + str(summa))
+
+operator = input("Välj räknesätt(+, -, *, /): ")
+try:
+    
+    num1 = int(input("Skriva in ett heltal: "))
+    
+except:
+    print("Du måste skriva ett tal")
+    
+    num1 = 0
+    
+
+try:
+     num2 = int(input("skriv ett annorlunda heltal: "))
+
+except:
+    print("Du måste skriva ett tal: ")
+    num2 = 0
+
+if operator == "+":
+    total = num1 + num2
+
+elif operator == "-":
+    total = num1-num2
+
+elif operator == "*":
+    total = num1 * num2
+
+elif operator == "/":
+    total = num1/num2
+
+   
+
+
+
+print("Summan är:", total)
