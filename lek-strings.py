@@ -11,7 +11,8 @@ lastName = "hägg"
 userName = firstName[0:3].lower()
 #lastname[0:3].lower()19
 userName = "caleb.hagg@elev.ga.ntig.se"
-print(userName)
+print(userName.casefold())
+print(userName.upper())
 
 
 nickName = "Calle"

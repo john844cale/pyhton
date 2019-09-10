@@ -1,0 +1,5 @@
+print("Välkommen till mitt program där du kan addera")
+tal1 = input("Skriva in ett heltal: ")
+tal2 = input("Skriva in ett annorlunda heltal: ")
+summa = int(tal1) + int(tal2)
+print("Summan är:" + str(summa))
